@@ -1,20 +1,25 @@
 {
   "name": "time-control-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for time control application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caiquecastro/time-control-api.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Caíque de Castro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caiquecastro/time-control-api/issues"
   },
-  "homepage": "https://github.com/caiquecastro/time-control-api#readme"
+  "homepage": "https://github.com/caiquecastro/time-control-api#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
 }
