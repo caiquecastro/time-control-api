@@ -1,3 +1,3 @@
-FROM node:9
+FROM node:8
 
 CMD ["npm", "start"]
