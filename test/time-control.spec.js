@@ -1,1 +1,3 @@
-describe('Time Control Application');
+describe('Time Control Application', () => {
+
+});
