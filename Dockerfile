@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY package.json /app
 
+USER node
+
 CMD ["npm", "start"]
