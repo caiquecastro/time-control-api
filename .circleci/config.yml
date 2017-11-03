@@ -3,6 +3,7 @@ jobs:
   deploy:
     docker:
       - image: circleci/node:8
+    working_directory: ~/app
     steps:
       - run:
           name: Run setup script
